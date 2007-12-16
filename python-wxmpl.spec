@@ -13,6 +13,7 @@ Group: 	 	Development/Python
 Url: 		http://agni.phys.iit.edu/~kmcivor/wxmpl/
 BuildRoot: 	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildArch:	noarch
+BuildRequires:	python-devel
 Requires:  	python-matplotlib, wxPython
 
 %description
