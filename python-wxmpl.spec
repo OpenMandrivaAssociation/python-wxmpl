@@ -1,7 +1,7 @@
 %define module  wxmpl
 %define name 	python-%{module}
 %define version 1.2.9
-%define release %mkrel 1
+%define release %mkrel 3
 
 Summary: 	Painless matplotlib embedding in wxPython
 Name: 	 	%{name}
