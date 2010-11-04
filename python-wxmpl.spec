@@ -15,7 +15,7 @@ BuildRoot: 	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildArch:	noarch
 Requires:  	python-matplotlib >= 0.98.1
 Requires:	wxPython >= 2.6.3.2
-%py_requires -d
+BuildRequires:	python
 
 %description
 The wxmpl module provides a matplotlib FigureCanvas with
@@ -36,7 +36,8 @@ update as their data changes) is also included.
 %clean
 %__rm -rf %{buildroot}
 
-%files -f INSTALLED_FILES
+%files
 %defattr(-,root,root)
 %doc README.txt LICENSE.txt ChangeLog reference/ demos/
-
+%_bindir/*
+%py_puresitedir/*
