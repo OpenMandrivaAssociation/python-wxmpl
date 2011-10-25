@@ -1,7 +1,7 @@
 %define module  wxmpl
 %define name 	python-%{module}
 %define version 2.0.0
-%define release %mkrel 1
+%define release %mkrel 2
 
 Summary: 	Painless matplotlib embedding in wxPython
 Name: 	 	%{name}
@@ -13,7 +13,7 @@ Group: 	 	Development/Python
 Url: 		http://csrri.iit.edu/~wxmpl/
 BuildRoot: 	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildArch:	noarch
-Requires:  	python-matplotlib >= 0.98.1
+Requires:  	python-matplotlib-wx >= 0.98.1
 Requires:	wxPython >= 2.6.3.2
 BuildRequires:	python
 
