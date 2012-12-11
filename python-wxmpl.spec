@@ -41,3 +41,39 @@ PYTHONDONTWRITEBYTECODE= %__python setup.py install --root=%{buildroot} --record
 %doc README.txt LICENSE.txt ChangeLog reference/ demos/
 %_bindir/*
 %py_puresitedir/*
+
+
+%changelog
+* Tue Oct 25 2011 Lev Givon <lev@mandriva.org> 2.0.0-2mdv2011.0
++ Revision: 707153
+- Require python-matplotlib-wx.
+- Update to 2.0.0.
+
+* Thu Nov 04 2010 Funda Wang <fwang@mandriva.org> 1.3.1-2mdv2011.0
++ Revision: 593152
+- update file list
+
+* Tue Sep 15 2009 Thierry Vignaud <tv@mandriva.org> 1.3.1-2mdv2010.0
++ Revision: 442545
+- rebuild
+
+* Tue Feb 24 2009 Lev Givon <lev@mandriva.org> 1.3.1-1mdv2009.1
++ Revision: 344542
+- Update to 1.3.1.
+
+* Fri Jan 02 2009 Funda Wang <fwang@mandriva.org> 1.2.9-5mdv2009.1
++ Revision: 323407
+- rebuild
+
+* Fri Aug 01 2008 Thierry Vignaud <tv@mandriva.org> 1.2.9-4mdv2009.0
++ Revision: 259862
+- rebuild
+
+* Fri Jul 25 2008 Thierry Vignaud <tv@mandriva.org> 1.2.9-3mdv2009.0
++ Revision: 247710
+- rebuild
+
+* Sun Dec 16 2007 Lev Givon <lev@mandriva.org> 1.2.9-1mdv2008.1
++ Revision: 120766
+- import python-wxmpl
+
