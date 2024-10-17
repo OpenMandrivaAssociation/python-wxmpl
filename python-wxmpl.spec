@@ -10,7 +10,7 @@ Release: 	%{release}
 Source0: 	%{module}-%{version}.tar.gz
 License: 	BSD-like
 Group: 	 	Development/Python
-Url: 		http://csrri.iit.edu/~wxmpl/
+Url: 		https://csrri.iit.edu/~wxmpl/
 BuildRoot: 	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildArch:	noarch
 Requires:  	python-matplotlib-wx >= 0.98.1
